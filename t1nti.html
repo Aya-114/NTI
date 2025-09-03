@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registeration Form</h2>
+
+    <form>
+        <fieldset>
+            <legend>Your Information</legend>
+            
+            <label for="username">User Name</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter your name"><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter your password"><br><br>
+
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age" placeholder="Enter your age"><br><br>
+
+            <label for="birthday">Birthday</label><br>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <label for="comments">Write Your Comments</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="50"></textarea><br><br>
+
+            <label for="city">Choose your city</label><br>
+            <select id="city" name="city">
+                <option value="">Choose your city...</option>
+                <option value="cairo">Cairo</option>
+                <option value="giza">Giza</option>
+                <option value="alexandria">Alexandria</option>
+                <option value="aswan">Aswan</option>
+            </select><br><br>
+
+            <p>What is your favorite sport?</p>
+            <input type="radio" id="football" name="sport" value="Football">
+            <label for="football">Football</label><br>
+            <input type="radio" id="basketball" name="sport" value="Basketball">
+            <label for="basketball">Basketball</label><br>
+            <input type="radio" id="volleyball" name="sport" value="Volleyball">
+            <label for="volleyball">Volleyball</label><br>
+            <input type="radio" id="swimming" name="sport" value="Swimming">
+            <label for="swimming">Swimming</label><br><br>
+
+            <p>What are your favorite languages?</p>
+            <input type="checkbox" id="python" name="language" value="Python">
+            <label for="python">Python</label><br>
+            <input type="checkbox" id="js" name="language" value="JS">
+            <label for="js">JS</label><br>
+            <input type="checkbox" id="cpp" name="language" value="C++">
+            <label for="cpp">C++</label><br>
+            <input type="checkbox" id="java" name="language" value="Java">
+            <label for="java">Java</label><br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Sign Up">
+        </fieldset>
+    </form>
+</body>
+</html>
